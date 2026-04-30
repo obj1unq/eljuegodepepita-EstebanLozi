@@ -1,0 +1,13 @@
+import fondo.*
+import pepita.*
+import extras.*
+import comidas.*
+import direccion.*
+import wollok.game.*
+import level1.*
+program pepitagame {
+  game.title("Pepita")
+  fondo.init()
+  level1.init()
+  game.start()
+}
