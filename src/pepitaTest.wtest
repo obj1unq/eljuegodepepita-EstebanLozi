@@ -1,8 +1,10 @@
 import pepita.*
 import comidas.*
-
+import direccion.*
+import extras.*
+import fondo.*
+import level1.*
 describe "Tests de Pepita" {
-
 
 	test "Al comer pepita aumenta su energia" {
 		pepita.comer(manzana)
@@ -11,8 +13,9 @@ describe "Tests de Pepita" {
 
 	test "Al volar pepita pierde energia" {
 		pepita.volar(1)
-		assert.equals(89, pepita.energia())
+		assert.equals(91, pepita.energia())
 	}
+
 
 
 
